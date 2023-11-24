@@ -7,11 +7,11 @@ import java.util.List;
 
 @Service
 public interface StudentService {
-    List<Student> getAllStudent();
+    List<Student> getAllStudents();
 
     Student getStudent(int id);
 
     Student saveStudent(Student student);
 
-    void deleteStudent(int id);
+    boolean deleteStudent(int id);
 }

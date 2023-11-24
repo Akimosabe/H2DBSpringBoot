@@ -6,9 +6,8 @@ import ru.bogdanovakim.H2DBSpringBoot.entity.Student;
 import java.util.List;
 
 @Repository
-public interface ServiceDAO {
+public interface StudentDAO {
     List<Student> getAllStudents();
-
     Student saveStudent(Student student);
 
     Student getStudent(int id);
